@@ -1,0 +1,41 @@
+body {
+    background-color: #FF49F3;
+  }
+
+  button:hover {
+animation-name: example; 
+animation-duration: 3s;
+animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  p {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 170px;
+    
+  }
+
+  @keyframes achtergrondswitch {
+    from {background-color: #FF49F3; }
+    to {back-ground-color: red}
+  }
+
+  body:hover {
+animation-name: example; 
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
